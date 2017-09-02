@@ -9,7 +9,7 @@ This role will be installed kops and kubectl
 Role Variables
 --------------
 
-Path /default/main.yml  
+Path default/main.yml  | url and version for binaries
 
 
 Example Playbook
@@ -21,10 +21,6 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - kops
 
-License
--------
-
-BSD
 
 Author Information
 ------------------
